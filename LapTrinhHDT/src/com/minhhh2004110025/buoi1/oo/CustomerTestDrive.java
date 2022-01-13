@@ -1,4 +1,4 @@
-package com.minhhh2004110025.hocki2.oo;
+package com.minhhh2004110025.buoi1.oo;
 
 public class CustomerTestDrive {
     public static void main(String[] args) {

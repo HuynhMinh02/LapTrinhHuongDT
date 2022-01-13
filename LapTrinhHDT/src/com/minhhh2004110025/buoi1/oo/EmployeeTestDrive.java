@@ -1,4 +1,4 @@
-package com.minhhh2004110025.hocki2.oo;
+package com.minhhh2004110025.buoi1.oo;
 
 import java.util.Scanner;
 
