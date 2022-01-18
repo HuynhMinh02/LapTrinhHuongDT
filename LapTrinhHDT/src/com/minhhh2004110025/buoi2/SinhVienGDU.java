@@ -14,11 +14,15 @@ public class SinhVienGDU {
     public SinhVienGDU(){
 
     }
-    public SinhVienGDU(String name, int age, String gt, String kH, Double diemTB){
+
+    public SinhVienGDU(String name, String kH){
         this.name = name;
+        this.khoa = kH;
+    }
+    public SinhVienGDU(String name, int age, String gt, String kH, Double diemTB){
+        this (name, kH);
         this.tuoi = age;
         this.gioiTinh = gt;
-        this.khoa = kH;
         this.diemTB = diemTB;
     }
     public String getName(){

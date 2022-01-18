@@ -42,12 +42,12 @@ public class Shape {
     }
 
     public void triangle(){
-        System.out.println("         ***            ");
-        System.out.println("     ***     ***        ");
-        System.out.println("   ***          ***     ");
-        System.out.println(" ***               ***  ");
+        System.out.println("           ***            ");
+        System.out.println("       ***     ***        ");
+        System.out.println("    ***          ***     ");
+        System.out.println("  ***               ***  ");
         System.out.println("***                  ***");
-        System.out.println("************************");
+        System.out.println(" ************************");
     }
 
     public void soundCircle(){
