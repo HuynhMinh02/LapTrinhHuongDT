@@ -38,12 +38,11 @@ public class Amoeba {
             this.yPoint = yPoint;
         }
     
-    
         public void playSound() {
             System.out.println("Play " + fileSound );
         }
     
-        public void rotate() {
+        public void rotate() {  //Amoeba xoay quanh một điểm ở một đầu mút.
             System.out.println("Amoeba đang Xoay 360 Độ... Tại xPoint: " + this.xPoint + " and yPoint: " + this.yPoint);
     }
 }
