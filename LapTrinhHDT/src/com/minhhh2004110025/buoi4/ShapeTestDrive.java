@@ -2,6 +2,11 @@ package com.minhhh2004110025.buoi4;
 
 public class ShapeTestDrive {
     public static void main(String[] args) {
+        System.out.println("Hình Tròn");
+        Circle circle = new Circle("Từng Tứng Tưng Tưng Từng Tưng ......");
+        circle.rotate();
+        circle.playSound();
+
         System.out.println("Hình Tam Giác");
         Triangle triangle = new Triangle("Tích Tích Tich .....");
         triangle.rotate();
@@ -12,9 +17,10 @@ public class ShapeTestDrive {
         square.rotate();
         square.playSound();
 
-        System.out.println("Hình Tròn");
-        Circle circle = new Circle("Từng Tứng Tưng Tưng Từng Tưng ......");
-        circle.rotate();
-        circle.playSound();
+        System.out.println("Hình Amoeba");
+        Amoeba amoeba = new Amoeba("Music.hif", 4.2, 6.5);
+        amoeba.rotate();
+        amoeba.playSound();
+
     }
 }
