@@ -51,7 +51,7 @@ public class Shape {
     }
 
     public void soundCircle(){
-        System.out.println("Tích Tích Tích");
+        System.out.println("Tích Tích Tích ");
     }
 
     public void soundSquare(){
