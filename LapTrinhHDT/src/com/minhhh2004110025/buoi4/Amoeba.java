@@ -39,7 +39,7 @@ public class Amoeba {
         }
     
         public void playSound() {
-            System.out.println("Play " + this.fileSound );
+            System.out.println("Play  " + this.fileSound );
         }
     
         public void rotate() {  //Amoeba xoay quanh một điểm ở một đầu mút.
