@@ -4,30 +4,30 @@ public class Amoeba {
         String fileSound;
         double xPoint, yPoint;
     
-        public String getfileSound() {
-            return fileSound;
-        }
-    
         public void setFileSound(String fileSound) {
             this.fileSound = fileSound;
         }
-    
-        public double getxPoint() {
-            return xPoint;
-        }
-    
+
         public void setxPoint(double xPoint) {
             this.xPoint = xPoint;
         }
-    
-        public double getyPoint() {
-            return yPoint;
-        }
-    
+
         public void setyPoint(double yPoint) {
             this.yPoint = yPoint;
         }
-    
+
+        public String getfileSound() {
+            return fileSound;
+        }
+
+        public double getyPoint() {
+            return yPoint;
+        }
+
+        public double getxPoint() {
+            return xPoint;
+        }
+            
         public Amoeba() {
     
         }
