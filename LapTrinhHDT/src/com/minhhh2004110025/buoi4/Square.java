@@ -12,6 +12,6 @@ public class Square {
     }
 
     void playSound() {
-        System.out.println("Play sound " + this.soundFile);
+        System.out.println("Play " + this.soundFile);
     }
 }
