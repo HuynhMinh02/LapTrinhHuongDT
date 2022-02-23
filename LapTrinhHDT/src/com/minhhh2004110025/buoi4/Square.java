@@ -1,7 +1,7 @@
 package com.minhhh2004110025.buoi4;
 
 public class Square {
-    String soundFile = "square.aif";
+    private String soundFile = "square.aif";
 
     public Square(String soundFile) {
         this.soundFile = soundFile;

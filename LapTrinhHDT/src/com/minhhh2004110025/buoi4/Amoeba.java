@@ -1,8 +1,8 @@
 package com.minhhh2004110025.buoi4;
 
 public class Amoeba {
-        String fileSound;
-        double xPoint, yPoint;
+        private String fileSound;
+        private double xPoint, yPoint;
     
         public void setFileSound(String fileSound) {
             this.fileSound = fileSound;

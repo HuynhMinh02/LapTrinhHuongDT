@@ -1,7 +1,7 @@
 package com.minhhh2004110025.buoi4;
 
 public class Triangle {
-    String soundFile = "triangle.aif";
+    private String soundFile = "triangle.aif";
 
     public Triangle(String soundFile) {
         this.soundFile = soundFile;

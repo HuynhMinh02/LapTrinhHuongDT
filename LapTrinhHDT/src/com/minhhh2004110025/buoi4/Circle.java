@@ -1,7 +1,7 @@
 package com.minhhh2004110025.buoi4;
 
 public class Circle {
-    String soundFile = "circle.aif";
+    private String soundFile = "circle.aif";
 
     public Circle(String soundFile) {
         this.soundFile = soundFile;
