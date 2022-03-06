@@ -6,12 +6,13 @@ public class MainVehicle {
     public static Scanner sc = new Scanner(System.in);
 
     public static void nhapXe(Vehicle vehicle){
-        System.out.print("Nhập tên chủ xe: ");
         sc.nextLine();
-        System.out.print("Nhập loại xe: ");
+        System.out.print("Nhập tên chủ xe: ");
         sc.nextLine();
         System.out.print("Nhập dung tích xe: ");
         sc.nextInt();
+        System.out.print("Nhập loại xe: ");
+        sc.nextLine();
         System.out.print("Nhập trị giá xe: ");
         sc.nextDouble();
     }
@@ -29,18 +30,19 @@ public class MainVehicle {
             sc.nextLine();
             switch (a){
                 case 1:
-                System.out.println("=============Bạn đã chọn chức năng nhập thông tin xe!!===============");
-                System.out.print("Nhập số lượng xe bạn muốn khai báo thuế: ");
-                n=sc.nextInt();
-                v = new Vehicle[n];
+                    System.out.println("=============Bạn đã chọn chức năng nhập thông tin xe!!===============");
+                    System.out.print("Nhập số lượng xe bạn muốn khai báo thuế: ");
+                    n=sc.nextInt();
+                    v = new Vehicle[n];
 
-                for (int i = 0; i < n; i++) {
-                    System.out.println("Xe thứ " + (i+1));
-                    v[i] = new Vehicle();
-                    nhapXe(v[i]);
+                    for (int i = 0; i < n; i++) {
+                        System.out.println("Xe thứ " + (i+1));
+                        v[i] = new Vehicle();
+                        nhapXe(v[i]);
                 }
                 break;
                 case 2:
+                    System.out.println("=============Bạn đã chọn chức năng xuất bảng kê khai tiền thuế!!===============");
                     System.out.printf("%5s %5s %5s %10s %10s %8s \n","Mã xe","Chủ xe","Dung tích","Trị giá","mô tả","Thuế");
                     for (int i = 0; i < n; i++) {
                         v[i].tinhThue();
