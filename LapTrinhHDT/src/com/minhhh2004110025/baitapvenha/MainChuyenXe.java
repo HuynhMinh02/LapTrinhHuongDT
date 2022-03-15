@@ -33,6 +33,7 @@ public class MainChuyenXe {
             doanhThuXeNgoaiThanh += chuyenXeNgoaiThanh.getDoanhThu();
             arrCXNgoaiThanh.add(chuyenXeNgoaiThanh);
         }
+        
          
         System.out.println("-----Thông tin chuyến xe nội thành-----");
         for (int i = 0; i < arrCXNoiThanh.size(); i++) {

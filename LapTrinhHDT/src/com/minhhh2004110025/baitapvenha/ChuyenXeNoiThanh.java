@@ -1,5 +1,6 @@
 package com.minhhh2004110025.baitapvenha;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ChuyenXeNoiThanh extends ThongTinChuyenXe {
@@ -34,12 +35,13 @@ public class ChuyenXeNoiThanh extends ThongTinChuyenXe {
      
     public void nhapThongTinChuyenXe() {
         super.nhapThongTinChuyenXe(); 
+        scanner.nextLine();
         System.out.print("Nhập số tuyến: ");
         soTuyen = scanner.nextLine();
         System.out.print("Nhập số km đi được: ");
         soKmDiDuoc = scanner.nextDouble();
     }
- 
+
     public String toString() {
         return super.toString() + ", số tuyến: " + this.soTuyen + ", số km đi được: " + this.soKmDiDuoc;
     }
