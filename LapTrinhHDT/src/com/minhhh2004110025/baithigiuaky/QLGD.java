@@ -16,7 +16,6 @@ public class QLGD {
             System.out.println("4. Xem tổng số lượng GD!");
             System.out.println("5. Trung bình giao dịch!");
             x = scanner.nextInt();
-        }
         switch (x) {
             case 1:
                 GD.addGiaoDich(1);
@@ -38,4 +37,5 @@ public class QLGD {
     }
     while(x != 0);
     System.out.println("Thoát!! Tạm biệt");
+}
 }
