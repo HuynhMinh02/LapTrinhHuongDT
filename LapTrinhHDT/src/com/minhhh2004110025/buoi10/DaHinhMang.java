@@ -22,9 +22,10 @@ public class DaHinhMang {
 
         for (Animal animal : dsA) {
             animal.makeNoise();
-            // if (animal instance Cat)
+            // if (animal instance Cat){
+                // animal.makeNoise();
+            // }
         }
-
 
      }
 
