@@ -2,7 +2,7 @@ package com.minhhh2004110025.buoi9;
 
 public class Lion extends Feline{
     @Override
-    protected void makeNoise() {
+    public void makeNoise() {
         System.out.println("Making Lion noise");
     }
 

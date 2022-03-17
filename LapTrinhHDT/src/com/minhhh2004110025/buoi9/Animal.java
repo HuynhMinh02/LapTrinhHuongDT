@@ -8,7 +8,7 @@ public abstract class Animal {
 
 
     //method - behaivor
-    protected abstract void makeNoise();
+    public abstract void makeNoise();
 
     protected void sleep(){
         System.out.println("Sleeping ...");
