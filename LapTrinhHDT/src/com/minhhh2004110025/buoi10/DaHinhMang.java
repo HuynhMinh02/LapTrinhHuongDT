@@ -1,8 +1,13 @@
 package com.minhhh2004110025.buoi10;
 
+import java.util.ArrayList;
+import java.util.List;
+
 import com.minhhh2004110025.buoi9.Animal;
 import com.minhhh2004110025.buoi9.Cat;
 import com.minhhh2004110025.buoi9.Dog;
+import com.minhhh2004110025.buoi9.Pet;
+import com.minhhh2004110025.buoi9.RobotDog;
 
 public class DaHinhMang {
      public static void main(String[] args) {
@@ -26,6 +31,15 @@ public class DaHinhMang {
                 // animal.makeNoise();
             // }
         }
+
+        List<Pet> listPet = new ArrayList<>();
+        Dog d = new Dog();
+        Cat c = new Cat();
+        RobotDog dogr = new RobotDog();
+
+        // listPet.add(d);
+        listPet.add(c);
+        listPet.add(dogr);
 
      }
 

@@ -6,7 +6,7 @@ public class Dog extends Animal {
     //cai de hanh vi
     @Override
     public void makeNoise() {
-        System.out.println("Making gau gau ...");
+        System.out.println("Dog gau gau ...");
     }
 
     @Override

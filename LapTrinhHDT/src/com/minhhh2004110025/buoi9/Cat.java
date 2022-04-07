@@ -13,7 +13,7 @@ public class Cat extends Feline implements Pet{
 
     @Override
     public void makeNoise() {
-        System.out.println("Cat sound.......");
+        System.out.println("Cat meo meo.......");
         
     }
 
