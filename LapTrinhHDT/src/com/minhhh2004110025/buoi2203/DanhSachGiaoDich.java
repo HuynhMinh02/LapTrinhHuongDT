@@ -58,7 +58,7 @@ public class DanhSachGiaoDich {
         }
         return tienGDDat/dem;
     }
-    //timKiem
+    // // timKiem
     // public void timKiemGiaoDich() {
     //     GiaoDichDat giaoDich = null;
     //     for (GiaoDich gd : danhSach) {
@@ -74,5 +74,6 @@ public class DanhSachGiaoDich {
         this.danhSach.remove(giaoDich);
         
     }
+
     
 }

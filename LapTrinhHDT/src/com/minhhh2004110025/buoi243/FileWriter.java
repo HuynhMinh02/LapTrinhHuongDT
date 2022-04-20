@@ -5,6 +5,9 @@ import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
 public class FileWriter {
+    public FileWriter(String string) {
+    }
+
     public static void write(String fileName, String s) {
 
         PrintWriter out =  null;
