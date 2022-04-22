@@ -8,6 +8,7 @@ public abstract class HangHoa {
     private String tenHang;
     private int soLuong ;
     private double donGia;
+    public boolean setNgayHetHan;
 
     public HangHoa(){
 
@@ -19,6 +20,7 @@ public abstract class HangHoa {
         this.soLuong = soLuong;
         this.donGia = donGia;
     }
+
 
     public String getMaHang() {
         return maHang;
@@ -69,13 +71,14 @@ public abstract class HangHoa {
             System.out.println("Don gia phai > 0 !!");
         }
     }
-
+ 
     @Override
     public String toString() {
-
         Locale localeVN = new Locale("vi" , "VN");
         NumberFormat tienViet = NumberFormat.getCurrencyInstance(localeVN);
 
-        return "HangHoa [maHang= " + maHang + ", soLuong= " + soLuong + ", tenHang= " + tenHang +  "Don gia= " + tienViet.format(donGia) + "]";
+        return  "Ma Hang: " + this.getMaHang()  +", Ten hang: "  + this.getTenHang() +" \t So luong: "+ this.getSoLuong() +" \t Don gia: " + tienViet.format(donGia) ;
+
     }
+
 }

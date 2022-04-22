@@ -1,0 +1,10 @@
+Ma Hang: HTP01, Ten hang: Mi Hao Hao 	 So luong: 10 	 Don gia: 3.000 ? 	 Ngay San Xuat: 18-04-2022 	 Ngay Het Han: 30-04-2022, Nha Cung Cap: ACECOOK
+Ma Hang: HTP02, Ten hang: Sting 	 So luong: 6 	 Don gia: 8.000 ? 	 Ngay San Xuat: 20-04-2022 	 Ngay Het Han: 26-04-2022, Nha Cung Cap: PEPSI
+Ma Hang: HTP03, Ten hang: Xuc Xich 	 So luong: 10 	 Don gia: 5.000 ? 	 Ngay San Xuat: 14-04-2022 	 Ngay Het Han: 22-04-2022, Nha Cung Cap: ABBY
+Ma Hang: HDM01, Ten hang: Tu Lanh 	 So luong: 3 	 Don gia: 10.000.000 ? 		 Cong Suat: 90.0 (W) 	 Thoi Gian BH: 24.0thang
+Ma Hang: HDM02, Ten hang: May Lanh 	 So luong: 1 	 Don gia: 7.000.000 ? 		 Cong Suat: 120.0 (W) 	 Thoi Gian BH: 24.0thang
+Ma Hang: HDM03, Ten hang: May Giat 	 So luong: 4 	 Don gia: 6.000.000 ? 		 Cong Suat: 80.0 (W) 	 Thoi Gian BH: 24.0thang
+Ma Hang: HDM04, Ten hang: May Rua Chen 	 So luong: 0 	 Don gia: 50.000.000 ? 		 Cong Suat: 160.0 (W) 	 Thoi Gian BH: 24.0thang
+Ma Hang: HSS01, Ten hang: Dia 	 So luong: 10 	 Don gia: 11.000 ? 		 Ngay Nhap Kho: 16-04-2022 		 Nha San Xuat: Bat Trang
+Ma Hang: HSS02, Ten hang: Binh Tra 	 So luong: 15 	 Don gia: 10.000 ? 		 Ngay Nhap Kho: 25-04-2022 		 Nha San Xuat: Bat Trang
+Ma Hang: HSS03, Ten hang: Ly 	 So luong: 0 	 Don gia: 20.000 ? 		 Ngay Nhap Kho: 22-04-2022 		 Nha San Xuat: Bat Trang

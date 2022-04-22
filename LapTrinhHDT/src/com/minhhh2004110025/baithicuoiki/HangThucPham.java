@@ -1,19 +1,19 @@
 package com.minhhh2004110025.baithicuoiki;
 
-import java.text.NumberFormat;
 import java.text.SimpleDateFormat;
 import java.util.Date;
-import java.util.Locale;
-
-public class HangThucPham extends HangHoa{
+public class HangThucPham extends HangHoa {
     private Date ngaySanXuat , ngayHetHan;
     private String nhaCungCap ;
 
+    public HangThucPham() {}
 
-    public HangThucPham(){
-        
+    public HangThucPham(Date ngaySanXuat, Date ngayHetHan, String nhaCungCap) {
+        this.ngaySanXuat = ngaySanXuat;
+        this.ngayHetHan = ngayHetHan;
+        this.nhaCungCap = nhaCungCap;
     }
-    
+
     public HangThucPham(String maHang, String tenHang, int soLuong, double donGia, Date ngaySanXuat, Date ngayHetHan,
             String nhaCungCap) {
         super(maHang, tenHang, soLuong, donGia);
@@ -39,12 +39,11 @@ public class HangThucPham extends HangHoa{
             if (ngayHetHan.after(this.ngaySanXuat)){
                 this.ngayHetHan = ngayHetHan;
             }else {
-                System.out.println("Ngay het han phai sau ngya sn xuat !!!");
-                this.ngayHetHan = new Date();
+                System.out.println("Ngay het han phai sau ngay san xuat !!!");
+                this.ngayHetHan = ngayHetHan;
             }
         } else {
             System.out.println("Ngay het hang khong duoc rong !!!");
-            this.ngayHetHan = new Date();
         }
     }
 
@@ -58,13 +57,10 @@ public class HangThucPham extends HangHoa{
 
     @Override
     public String toString() {
+        SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");
 
-        SimpleDateFormat ngayVietNam = new SimpleDateFormat("dd/MM/yyyy");
 
-        return "HangThucPham " + super.toString() +"[ngayHetHan=" + ngayVietNam.format(ngayHetHan) + ", ngaySanXuat=" + ngayVietNam.format(ngaySanXuat) + ", nhaCungCap=" + nhaCungCap
-                + "]";
+        return super.toString()  + " \t Ngay San Xuat: " + df.format(this.getNgaySanXuat()) + " \t Ngay Het Han: " +  df.format(this.getNgayHetHan()) + ", Nha Cung Cap: " + this.getNhaCungCap();
     }
 
-    
-    
 }
